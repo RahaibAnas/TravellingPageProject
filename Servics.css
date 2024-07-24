@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* width: 100vw; */
+    height: 95vh;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-image: url(Images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    backdrop-filter: blur(3px);
+    font-family: cursive;
+}
+    /*=========NavBar========*/
+.topBar{
+    
+    margin-left: 92px ;
+    height:80px;
+    width: 1100px;
+    background:radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.topBar h1{
+    display: flex;
+    justify-items: center;
+}
+
+nav{
+    display: flex;
+    padding: 12px 5%;
+}
+
+.logo{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+}
+
+nav ul{
+   flex: 1;
+   text-align: right;
+   
+}
+
+nav ul li{
+   
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 17px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.2 ease;
+}
+
+.Active{
+    color: #fff;
+}
+
+.bars{
+    list-style: none;
+    margin:17px;
+    margin-right: 60px;
+    margin-right: -20px;
+    cursor: pointer;
+    font-size: 19px;
+    color:#fff;
+}
+
+
+nav ul li a:hover{
+    
+    color: #fff;
+}
+
+.logo i{
+    margin-top: 5px;
+
+}
+
+/*===========Main=========*/
+.main{
+    height: 20px;
+    display: flex;
+}
+
+.content{
+
+    width: 930px;
+    height: 500px;
+    margin-top:19px;
+    margin-left: 92px ;
+    padding-left: 52px;
+    background-image: url(Images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background:radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+   
+}
+
+.content{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.glass{
+    width: 270px;
+    height: 400px;
+    margin: 20px;
+    margin-right: 35px;
+    
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background:radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.glass h2{
+    color: blueviolet;
+    margin: 20px;
+}
+
+.glass h3{
+    color: rgb(255, 0, 0);
+}
+.glass .line {
+color: blue;
+ }
+
+ .glass ul{
+    margin: 15px;
+ }
+
+ .glass ul li{
+    list-style:circle;
+    text-align: center;
+    margin: 15px;
+    color:rgb(241, 225, 225);
+ }
+
+ .btn{
+    width: 170px;
+    height: 40px;
+    margin:20px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: cursive;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2 ease;
+    color: rgb(250, 101, 1);
+}
+
+.btn:hover{
+    color:#fff;
+    background-color: rgb(187, 153, 41);
+}
+
+
+
+
+/*===========Icons============*/
+
+.icons{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 500px;
+    width:100px;
+    background-color: rgba(255, 255, 255, 0.062);
+    /* background:radial-gradient(rgba(196, 23, 23, 0.6)); */
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+
+}
+ .social ul li{
+    margin: 30px 20px;
+    list-style: none;
+}
+
+.social ul li a :hover{
+   border: 2px solid rgb(250, 250, 252);
+}
+
+
